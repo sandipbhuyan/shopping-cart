@@ -14,10 +14,24 @@ class App extends Component {
   }
   render() {
     return (
-        <div className="App">
-            <Items />
-            <Cart />
-        </div>
+        <section className="App">
+            <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                    <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="" />
+                        Bootstrap
+                </a>
+            </nav>
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-3">
+                        <Cart />
+                    </div>
+                    <div className="col-md-9">
+                        <Items />
+                    </div>
+                </div>
+            </div>
+        </section>
     );
   }
 }
