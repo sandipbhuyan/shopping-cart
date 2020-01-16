@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 class Items extends Component {
     render() {
         return (
+            // TODO: Make another item component
             <div className="card">
                 <div className="card-header">
                     Item

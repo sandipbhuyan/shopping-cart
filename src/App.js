@@ -12,6 +12,8 @@ class App extends Component {
 
       })
   }
+  // TODO: Add cart as a drop down
+  // TODO: Add size chart
   render() {
     return (
         <section className="App">
